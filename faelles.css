@@ -51,3 +51,22 @@ body {
     flex-flow: column;
   }
 }
+
+@media (min-width: 700px) {
+  #second_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  #third_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+  #third_section .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
