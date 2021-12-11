@@ -2,6 +2,14 @@
 body {
   font-family: "Quattrocento Sans", sans-serif;
 }
+video {
+  max-width: 100%;
+}
+
+#first_section {
+  background-image: url(splash_video_prøve.mp4);
+  grid-column: 1/4;
+}
 
 .banner {
   background: rgb(255, 255, 255);
