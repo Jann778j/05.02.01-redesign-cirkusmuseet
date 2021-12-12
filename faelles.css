@@ -65,7 +65,11 @@ a {
 }
 
 #third_section {
+  background-color: #eaa001;
+}
+#third_section .section_wrapper {
   margin: 2rem;
+  background-color: #eaa001;
 }
 
 #fourth_section .section_wrapper {
