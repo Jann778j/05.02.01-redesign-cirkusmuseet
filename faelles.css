@@ -4,11 +4,10 @@ body {
 }
 video {
   max-width: 100%;
+  filter: opacity(60%);
 }
 
-#first_section {
-  background-image: url(splash_video_prøve.mp4);
-  grid-column: 1/4;
+#myvideo {
 }
 
 .banner {
