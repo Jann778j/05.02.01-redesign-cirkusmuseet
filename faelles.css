@@ -6,6 +6,11 @@ body {
 img {
   max-width: 100%;
 }
+
+footer {
+  background-color: crimson;
+}
+
 video {
   /* max-width: 100%; */
   background-size: cover;
@@ -16,18 +21,13 @@ video {
   width: 100%;
 }
 
-#first_section {
-}
-
-#myvideo {
-}
-
 .banner {
   background: rgb(255, 255, 255);
   padding: 2rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: sticky;
 }
 
 .banner ul {
