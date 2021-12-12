@@ -11,7 +11,7 @@ footer {
   background-color: #0156b9;
   color: aliceblue;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 .logo {
@@ -29,7 +29,8 @@ video {
 }
 
 .banner {
-  background: rgb(255, 255, 255);
+  background: #0156b9;
+
   padding: 2rem;
   display: flex;
   justify-content: space-between;
@@ -49,6 +50,7 @@ video {
 /* burgermenu */
 .toggle-btn {
   display: none;
+  color: aliceblue;
 }
 
 #first_section {
@@ -118,38 +120,38 @@ video {
 
   #fourth_section .section_wrapper {
     display: grid;
-    grid-template-columns: 3fr;
-  }
-  #fourth_section .col_wide {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     gap: 1rem;
   }
-  /* #fourth_section .col1 {
-    display: grid;
-    grid-template-columns: 3fr;
+  .element1 {
     grid-column: 1/2;
   }
-
-  #fourth_section .col2 {
-    display: grid;
-    grid-template-columns: 3fr;
+  .element2 {
     grid-column: 2/3;
   }
-  #fourth_section .col3 {
-    display: grid;
-    grid-template-columns: 3fr;
+  .element3 {
     grid-column: 3/4;
-  } */
+  }
+  .element4 {
+    grid-column: 4/5;
+  }
 }
 @media (min-width: 1000px) {
   #fourth_section .section_wrapper {
     display: grid;
-    grid-template-columns: 3fr;
-  }
-  #fourth_section .col_wide {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
     gap: 1rem;
+  }
+  .element1 {
+    grid-column: 1/2;
+  }
+  .element2 {
+    grid-column: 2/3;
+  }
+  .element3 {
+    grid-column: 3/4;
+  }
+  .element4 {
+    grid-column: 4/5;
   }
 }
