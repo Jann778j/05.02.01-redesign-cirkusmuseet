@@ -22,7 +22,6 @@ video {
   background-position: 50% 50%;
   filter: opacity(60%);
   /* min-width: 100%; */
-
   width: 100%;
 }
 
@@ -47,6 +46,17 @@ video {
 /* burgermenu */
 .toggle-btn {
   display: none;
+}
+
+#first_section {
+}
+
+#second_section {
+  margin: 2rem;
+}
+
+#third_section {
+  margin: 2rem;
 }
 
 @media (max-width: 600px) {
@@ -82,13 +92,16 @@ video {
   #second_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 13rem;
+    margin: 10rem;
+    margin-bottom: 10rem;
   }
 
   #third_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
+    gap: 10rem;
+    margin: 10rem;
   }
   #third_section .col {
     display: flex;
