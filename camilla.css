@@ -1,3 +1,239 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
 p {
-  background-color: blue;
+  text-decoration: none;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+@media (max-width: 600px) {
+  /* menu liste */
+  nav {
+    text-align: left;
+  }
+  nav a {
+    float: none;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+  /* --------------------------------------- */
+  /* header */
+  header {
+    float: none;
+    color: black;
+    text-decoration: none;
+  }
+}
+/* --------------------------------------- */
+@media (min-width: 600px) {
+  /* menu liste */
+  nav a {
+    float: none;
+    display: block;
+    color: black;
+    text-decoration: none;
+    /* background-color: #eaa001; */
+  }
+  /* --------------------------------------- */
+  /* header */
+  header {
+    float: none;
+    text-decoration: none;
+  }
+  /* --------------------------------------- */
+  /* main */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  /* --------------------------------------- */
+  /* footer */
+  footer {
+    background-color: #eaa001;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* --------------------------------------- */
+  /* img */
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+/* --------------------------------------- */
+/* logo */
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+/* --------------------------------------- */
+/* menu */
+
+.banner {
+  background-color: transparent;
+
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  font-family: "Quattrocento Sans", sans-serif;
+  /* font-weight: bold; */
+}
+
+a {
+  color: rgb(8, 8, 8);
+}
+
+.banner ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+/* burgermenu */
+.toggle-btn {
+  display: none;
+  color: rgb(5, 5, 5);
+}
+
+/* --------------------------------------- */
+/* opsætning af billederne i grid */
+/* .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery img {
+  height: 100%;
+  object-fit: cover;
+} */
+/* --------------------------------------- */
+/* janne.css */
+
+#sixth_section .section_wrapper {
+  margin: 2rem;
+}
+
+.links {
+  display: flex;
+  flex-flow: wrap;
+  list-style: none;
+  gap: 2rem;
+}
+
+/* skifter farve på links, når musen hover over */
+a:hover {
+  color: ;
+}
+
+/* Opsætninger af billeder af grid */
+#first_section {
+  margin: 1rem;
+}
+
+#first_section .section_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.5rem;
+  margin: 2.5rem;
+}
+#first_section .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#second_section {
+  margin: 1rem;
+}
+
+#third_section .section_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.5rem;
+  margin: 2.5rem;
+}
+#third_section .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#fourth_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.element6 {
+  grid-column: 1/2;
+}
+
+#sixth_section .section_wrapper {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  gap: 1rem;
+}
+.element1 {
+  grid-column: 1/2;
+}
+.element2 {
+  grid-column: 2/3;
+}
+.element3 {
+  grid-column: 3/4;
+}
+.element4 {
+  grid-column: 4/5;
+}
+
+/* --------------------------------------- */
+@media (min-width: 900px) {
+  #second_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    /* margin: 10rem;
+    margin-bottom: 10rem; */
+  }
+  #sixth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 2.5rem;
+  }
+  .element1 {
+    grid-column: 1/2;
+  }
+  .element2 {
+    grid-column: 2/3;
+  }
+  .element3 {
+    grid-column: 3/4;
+  }
+  .element4 {
+    grid-column: 4/5;
+  }
+}
+/* --------------------------------------- */
+
+.element5 {
+  cursor: url("https://maps.gstatic.com/mapfiles/openhand_8_8.cur"), default;
+}
+
+/* favicon */
+
+.favicon {
+  max-width: 100px;
 }
