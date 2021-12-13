@@ -170,6 +170,17 @@ a:hover {
   justify-content: space-between;
 }
 
+#fourth_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.element6 {
+  grid-column: 1/2;
+}
+
 #sixth_section .section_wrapper {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr;
@@ -216,3 +227,7 @@ a:hover {
   }
 }
 /* --------------------------------------- */
+
+.element5 {
+  cursor: url("https://maps.gstatic.com/mapfiles/openhand_8_8.cur"), default;
+}
