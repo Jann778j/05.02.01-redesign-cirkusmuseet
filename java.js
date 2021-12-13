@@ -19,7 +19,7 @@ function toggleMenu() {
     btn.textContent = "Luk";
   } else {
     // hvis IKKE nav har klassen "shown", sæt da btn.textContent til "Menu"
-    btn.textContent = "Menu";
+    btn.textContent = "menu";
   }
 }
 
