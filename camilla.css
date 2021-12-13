@@ -231,3 +231,9 @@ a:hover {
 .element5 {
   cursor: url("https://maps.gstatic.com/mapfiles/openhand_8_8.cur"), default;
 }
+
+/* favicon */
+
+.favicon {
+  max-width: 100px;
+}
