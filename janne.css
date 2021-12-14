@@ -32,12 +32,9 @@ footer {
 } */
 
 video {
-  /* max-width: 100%; */
-
   /* background-size: cover; */
   background-position: 50% 50%;
   filter: opacity(60%);
-  /* min-width: 100%; */
   width: 100%;
 }
 
@@ -92,10 +89,6 @@ a {
   flex-flow: wrap;
   list-style: none;
   gap: 2rem;
-}
-
-a:hover {
-  color: yellow;
 }
 
 @media (max-width: 600px) {
