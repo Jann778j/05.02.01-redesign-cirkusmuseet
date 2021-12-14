@@ -79,40 +79,40 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
   }
-
-  /* --------------------------------------- */
-  /* menu */
-
-  .banner {
-    background-color: transparent;
-
-    padding: 2rem;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: sticky;
-    font-family: "Quattrocento Sans", sans-serif;
-    /* font-weight: bold; */
-  }
-
-  a {
-    color: rgb(8, 8, 8);
-  }
-
-  .banner ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-  }
-
-  /* burgermenu */
-  .toggle-btn {
-    display: none;
-    color: rgb(5, 5, 5);
-  }
 }
 
+/* --------------------------------------- */
+/* menu */
+
+.banner {
+  background-color: transparent;
+
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  font-family: "Quattrocento Sans", sans-serif;
+  /* font-weight: bold; */
+}
+
+a {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+}
+
+.banner ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+/* burgermenu */
+.toggle-btn {
+  display: none;
+  color: rgb(5, 5, 5);
+}
 .links {
   display: flex;
   flex-flow: wrap;
@@ -131,35 +131,6 @@ footer {
 @media (min-width: 900px) {
   /* --------------------------------------- */
   /* menu */
-
-  .banner {
-    background-color: transparent;
-
-    padding: 2rem;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: sticky;
-    font-family: "Quattrocento Sans", sans-serif;
-    /* font-weight: bold; */
-  }
-
-  a {
-    color: rgb(8, 8, 8);
-  }
-
-  .banner ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-  }
-
-  /* burgermenu */
-  .toggle-btn {
-    display: none;
-    color: rgb(5, 5, 5);
-  }
 
   #first_section {
     margin: 1rem;
@@ -200,18 +171,6 @@ footer {
     margin: 5rem;
     margin-bottom: 5rem;
   }
-
-  /* #third_section .section_wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2.5rem;
-  margin: 2.5rem;
-}
-#third_section .col {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-} */
 
   #fourth_section {
     display: grid;
@@ -259,7 +218,7 @@ footer {
   max-width: 100px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .toggle-btn {
     background: transparent;
     border: none;
