@@ -39,7 +39,6 @@ video {
 }
 
 .banner {
-  background-color: transparent;
   padding: 0.5rem;
   display: flex;
   justify-content: space-between;
@@ -50,6 +49,7 @@ video {
 
 a {
   color: rgb(8, 8, 8);
+  text-decoration: none;
 }
 
 .banner ul {
