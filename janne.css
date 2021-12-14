@@ -3,6 +3,10 @@ body {
   font-family: "Quattrocento Sans", sans-serif;
 }
 
+p {
+  line-height: 1.2rem;
+}
+
 img {
   max-width: 100%;
 }
@@ -32,17 +36,13 @@ footer {
 } */
 
 video {
-  /* max-width: 100%; */
-
   /* background-size: cover; */
   background-position: 50% 50%;
   filter: opacity(60%);
-  /* min-width: 100%; */
   width: 100%;
 }
 
 .banner {
-  background-color: transparent;
   padding: 0.5rem;
   display: flex;
   justify-content: space-between;
@@ -53,6 +53,7 @@ video {
 
 a {
   color: rgb(8, 8, 8);
+  text-decoration: none;
 }
 
 .banner ul {
@@ -60,6 +61,23 @@ a {
   padding: 0;
   display: flex;
   gap: 20px;
+}
+
+#first_section {
+  position: relative;
+}
+
+#first_section .boxed {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+
+  font-family: "Quattrocento Sans", sans-serif;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: lighter;
+  color: white;
+  text-shadow: gray 5px 5px 5px;
 }
 
 /* burgermenu */
@@ -71,8 +89,13 @@ a {
 #first_section {
 }
 
-#second_section {
+#second_section .section_wrapper {
   margin: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#second_section {
+  background-color: #ef4044;
 }
 
 #third_section {
@@ -92,10 +115,6 @@ a {
   flex-flow: wrap;
   list-style: none;
   gap: 2rem;
-}
-
-a:hover {
-  color: yellow;
 }
 
 @media (max-width: 600px) {
@@ -128,12 +147,29 @@ a:hover {
 }
 
 @media (min-width: 700px) {
+  #first_section {
+    position: relative;
+  }
+
+  #first_section .boxed {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+
+    font-family: "Quattrocento Sans", sans-serif;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: white;
+    text-shadow: gray 5px 5px 5px;
+  }
+
   #second_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
     margin: 3rem;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
   }
 
   #third_section .section_wrapper {
@@ -167,6 +203,23 @@ a:hover {
   }
 }
 @media (min-width: 1100px) {
+  #first_section {
+    position: relative;
+  }
+
+  #first_section .boxed {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+
+    font-family: "Quattrocento Sans", sans-serif;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: white;
+    text-shadow: gray 5px 5px 5px;
+  }
+
   #fourth_section .section_wrapper {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;
