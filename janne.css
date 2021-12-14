@@ -160,7 +160,7 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
     margin: 3rem;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
   }
 
   #third_section .section_wrapper {
