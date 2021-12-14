@@ -1,4 +1,4 @@
-/* header */
+
 body {
   font-family: "Quattrocento Sans", sans-serif;
 }
@@ -6,20 +6,7 @@ body {
 img {
   max-width: 100%;
 }
-
-footer {
-  background-color: #0156b9;
-  color: aliceblue;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.logo {
-  width: 50px;
-  height: 50px;
-}
-
-
+/* header */
 
 .banner {
   background-color: transparent;
@@ -32,22 +19,26 @@ footer {
   font-family: "Quattrocento Sans", sans-serif;
   /* font-weight: bold; */
 }
-
-a {
-  color: rgb(8, 8, 8);
-}
-
 .banner ul {
   list-style: none;
   padding: 0;
   display: flex;
   gap: 20px;
 }
+/* nav text */
+a {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+}
 
 /* burgermenu */
 .toggle-btn {
   display: none;
   color: rgb(5, 5, 5);
+}
+.logo {
+  width: 50px;
+  height: 50px;
 }
 
 #first_section {
@@ -56,6 +47,7 @@ a {
 
 #second_section {
   margin: 2rem;
+  background-color: blue;
 }
 
 #third_section {
@@ -79,6 +71,15 @@ a {
 a:hover {
   color: yellow;
 }
+
+footer {
+  background-color: #0156b9;
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+
 
 @media (max-width: 600px) {
   .toggle-btn {
@@ -106,17 +107,20 @@ a:hover {
   nav ul {
     display: flex;
     flex-flow: column;
+    text-decoration: none;
+    /* list-style: none; */
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 900px) {
   #second_section .section_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 13rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
     margin: 10rem;
-    margin-bottom: 10rem;
   }
+
+
 
   #third_section .section_wrapper {
     display: grid;
@@ -124,11 +128,11 @@ a:hover {
     gap: 10rem;
     margin: 10rem;
   }
-  #third_section .col {
+  /* #third_section .col {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
+  } */
 
   #fourth_section .section_wrapper {
     display: grid;
