@@ -7,22 +7,17 @@ body {
 img {
   max-width: 100%;
 }
-/* header */
 
-video {
-width: 40%;
-}
+/* Header */
 
 .banner {
   background-color: transparent;
-
   padding: 2rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   position: sticky;
   font-family: "Quattrocento Sans", sans-serif;
-  /* font-weight: bold; */
 }
 .banner ul {
   list-style: none;
@@ -30,6 +25,12 @@ width: 40%;
   display: flex;
   gap: 20px;
 }
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
 /* nav text */
 a {
   color: rgb(8, 8, 8);
@@ -42,19 +43,18 @@ a:hover {
 .links {
   display: flex;
   flex-flow: wrap;
-  list-style: none;
 }
-
 /* burgermenu */
 .toggle-btn {
   display: none;
   color: rgb(5, 5, 5);
 }
-.logo {
-  width: 50px;
-  height: 50px;
-}
 
+/* MOBILE FIRST (iPhone 12 pro) 375 */
+
+video {
+width: 40%;
+}
 
 h1{
   margin: 2rem;
@@ -66,6 +66,7 @@ h1{
   padding-bottom: 2rem;
   color: #EDEEEF;
 }
+
 #second_section .section_wrapper {
   margin: 2rem;
 }
@@ -80,26 +81,17 @@ h1{
  margin: 2rem;
 }
 
+/* Footer */
 #fourth_section .section_wrapper {
   margin: 2rem;
 }
 
-
 footer {
   background-color: #0156b9;
-  color: aliceblue;
+  color: #EDEEEF;
   display: grid;
   grid-template-columns: 1fr;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -136,27 +128,29 @@ footer {
 }
 
 @media (min-width: 900px) {
+
+  h1{
+  margin: 3rem;
+}
+
   #second_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
-    margin: 10rem;
+    margin: 3rem;
   }
-
-
 
   #third_section .section_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10rem;
-    margin: 10rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 3rem;
   }
-  /* #third_section .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  } */
 
+
+
+
+  /* Footer */
   #fourth_section .section_wrapper {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;
@@ -174,6 +168,4 @@ footer {
   .element4 {
     grid-column: 4/5;
   }
-}
-@media (min-width: 900px) {
 }
