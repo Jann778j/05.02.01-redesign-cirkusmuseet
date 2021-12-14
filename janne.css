@@ -26,10 +26,15 @@ footer {
   height: 50px;
 }
 
+/* main {
+  position: absolute;
+  top: 0;
+} */
+
 video {
   /* max-width: 100%; */
 
-  background-size: cover;
+  /* background-size: cover; */
   background-position: 50% 50%;
   filter: opacity(60%);
   /* min-width: 100%; */
@@ -38,13 +43,12 @@ video {
 
 .banner {
   background-color: transparent;
-  padding: 2rem;
+  padding: 0.5rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   position: sticky;
   font-family: "Quattrocento Sans", sans-serif;
-  font-weight: bold;
 }
 
 a {
