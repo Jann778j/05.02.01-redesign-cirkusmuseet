@@ -11,27 +11,26 @@ p {
   font-family: "Quattrocento Sans", sans-serif;
 }
 
-@media (max-width: 600px) {
-  /* menu liste */
-  nav {
-    text-align: left;
-  }
-  nav a {
-    float: none;
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-  }
-  /* --------------------------------------- */
-  /* header */
-  header {
-    float: none;
-    color: black;
-    text-decoration: none;
-  }
+/* menu liste */
+nav {
+  text-align: left;
+}
+nav a {
+  float: none;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
 }
 /* --------------------------------------- */
-@media (min-width: 600px) {
+/* header */
+header {
+  float: none;
+  color: black;
+  text-decoration: none;
+}
+
+/* --------------------------------------- */
+@media (min-width: 700px) {
   /* menu liste */
   nav a {
     float: none;
@@ -63,7 +62,7 @@ p {
   /* --------------------------------------- */
   /* img */
   img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
   }
@@ -134,9 +133,9 @@ a {
 }
 
 /* skifter farve på links, når musen hover over */
-a:hover {
+/* a:hover {
   color: ;
-}
+} */
 
 /* Opsætninger af billeder af grid */
 #first_section {
