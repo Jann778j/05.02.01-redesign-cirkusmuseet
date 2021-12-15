@@ -39,13 +39,6 @@ a:hover {
   color: #ef4044;
 }
 
-.links {
-  display: flex;
-  flex-flow: wrap;
-  list-style: none;
-  gap: 2rem;
-}
-
 /* burgermenu */
 .toggle-btn {
   display: none;
@@ -55,31 +48,31 @@ a:hover {
 /* MOBILE FIRST (iPhone 12 pro) 375 */
 
 #section_video {
-display: grid;
-grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .video {
-grid-column: 1/2;
-width: 90%;
+  grid-column: 1/2;
+  width: 90%;
 }
 
 h1 {
   margin: 2rem;
   font-size: 2.5rem;
-    color: #333333;
+  color: #333333;
 }
 
 h2 {
   font-size: 1.5;
 }
 
-h3{
+h3 {
   font-size: 1.25;
-    color: #333333;
+  color: #333333;
 }
 
-p{
+p {
   font-size: 1rem;
   color: #333333;
 }
@@ -116,24 +109,14 @@ footer {
   grid-template-columns: 1fr;
 }
 
-
+.links {
+  display: flex;
+  flex-flow: wrap;
+  list-style: none;
+  gap: 2rem;
+}
 
 @media (max-width: 700px) {
-  
-#section_video {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-}
-
-.video {
-grid-column: 2/3;
-}
-
-video{
-  width: 100%;
-}
-
-
   .toggle-btn {
     background: transparent;
     border: none;
@@ -164,43 +147,61 @@ video{
   }
 }
 
-#fourth_section .section_wrapper {
-  display: grid;
-  grid-template-columns: 2fr 2fr 2fr 2fr;
-  gap: 1rem;
-}
+@media (min-width: 700px) {
+  #fourth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 1rem;
+  }
+  #section_video {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-@media (min-width: 900px) {
+  .video {
+    grid-column: 2/3;
+  }
 
+  video {
+    width: 100%;
+  }
 
-#section_video {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-}
-
-.video {
-grid-column: 2/3;
-}
-
-video{
-  width: 100%;
-}
-  h1 {
+   #second_section .section_wrapper {
     margin: 3rem;
+  }
+   #third_section .section_wrapper {
+    margin: 3rem;}
+}
+
+@media (min-width: 1080px) {
+  #section_video {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .video {
+    grid-column: 2/3;
+  }
+
+  video {
+    width: 100%;
+  }
+  h1 {
+    margin: 7rem;
   }
 
   #second_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
-    margin: 3rem;
+    margin: 7rem;
   }
 
   #third_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    margin: 3rem;
+    margin: 7rem;
   }
 
   /* Footer */
@@ -210,9 +211,6 @@ video{
     gap: 1rem;
   }
 
-
-{
-  
   .element1 {
     grid-column: 1/2;
   }

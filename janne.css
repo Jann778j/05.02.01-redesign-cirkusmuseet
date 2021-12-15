@@ -41,15 +41,10 @@ footer {
   height: 50px;
 }
 
-/* main {
-  position: absolute;
-  top: 0;
-} */
-
 video {
   background-position: 50% 50%;
   filter: opacity(60%);
-  width: 100%;
+  /* width: 100%; */
 }
 
 .banner {
