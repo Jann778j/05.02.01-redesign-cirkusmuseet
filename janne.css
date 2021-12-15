@@ -22,13 +22,6 @@ img {
   max-width: 100%;
 }
 
-.splash {
-  height: auto;
-  aspect-ratio: 16/9;
-
-  background-size: cover;
-}
-
 footer {
   background-color: #0156b9;
   color: #ededed;
@@ -44,7 +37,7 @@ footer {
 video {
   background-position: 50% 50%;
   filter: opacity(60%);
-  /* width: 100%; */
+  width: 100%;
 }
 
 .banner {
@@ -92,9 +85,6 @@ a:hover {
 .toggle-btn {
   display: none;
   color: #333333;
-}
-
-#first_section {
 }
 
 #second_section .section_wrapper {
