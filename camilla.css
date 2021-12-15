@@ -73,6 +73,9 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #ef4044;
+}
 .banner ul {
   list-style: none;
   padding: 0;
