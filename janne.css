@@ -31,7 +31,7 @@ img {
 
 footer {
   background-color: #0156b9;
-  color: aliceblue;
+  color: #ededed;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -89,14 +89,14 @@ a:hover {
   padding: 1rem;
   font-size: 2rem;
   font-weight: lighter;
-  color: white;
+  color: #ededed;
   text-shadow: gray 5px 5px 5px;
 }
 
 /* burgermenu */
 .toggle-btn {
   display: none;
-  color: rgb(5, 5, 5);
+  color: #333333;
 }
 
 #first_section {
@@ -116,6 +116,8 @@ a:hover {
 }
 #third_section .section_wrapper {
   margin: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 #fourth_section .section_wrapper {
@@ -162,17 +164,20 @@ a:hover {
   #first_section {
     position: relative;
   }
+  h1 {
+    font-size: 5rem;
+  }
 
   #first_section .boxed {
     position: absolute;
-    top: 35%;
-    left: 35%;
+    top: 27%;
+    left: 25%;
 
     font-family: "Quattrocento Sans", sans-serif;
     padding: 1rem;
     font-size: 2rem;
     font-weight: lighter;
-    color: white;
+    color: #ededed;
     text-shadow: gray 5px 5px 5px;
   }
 
@@ -218,17 +223,20 @@ a:hover {
   #first_section {
     position: relative;
   }
+  h1 {
+    font-size: 7rem;
+  }
 
   #first_section .boxed {
     position: absolute;
-    top: 35%;
-    left: 35%;
+    top: 30%;
+    left: 27%;
 
     font-family: "Quattrocento Sans", sans-serif;
     padding: 1rem;
     font-size: 2rem;
     font-weight: lighter;
-    color: white;
+    color: #ededed;
     text-shadow: gray 5px 5px 5px;
   }
 
