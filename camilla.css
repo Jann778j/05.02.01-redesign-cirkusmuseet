@@ -11,6 +11,7 @@ h4,
 p {
   text-decoration: none;
   font-family: "Quattrocento Sans", sans-serif;
+  line-height: 1.2 rem;
 }
 
 /* --------------------------------------- */
@@ -31,69 +32,14 @@ iframe {
   height: 50px;
 }
 /* --------------------------------------- */
-/* menu liste */
-nav {
-  text-align: left;
-}
-nav a {
-  float: none;
-  font-size: 20px;
-  color: black;
-  text-decoration: none;
-}
-/* --------------------------------------- */
-/* header */
-header {
-  float: none;
-  color: black;
-  text-decoration: none;
-}
-/* --------------------------------------- */
-/* footer */
-footer {
-  background-color: #eaa001;
-  color: whitesmoke;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-/* --------------------------------------- */
-@media (min-width: 700px) {
-  /* menu liste */
-  nav a {
-    float: none;
-    display: block;
-    color: black;
-    text-decoration: none;
-    /* background-color: #eaa001; */
-  }
-  /* --------------------------------------- */
-  /* header */
-  header {
-    float: none;
-    text-decoration: none;
-  }
-  /* --------------------------------------- */
-  /* main */
-  main {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-}
-
-/* --------------------------------------- */
 /* menu */
-
 .banner {
-  background-color: transparent;
-
   padding: 0.5rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   position: sticky;
   font-family: "Quattrocento Sans", sans-serif;
-  /* font-weight: bold; */
 }
 
 a {
@@ -113,6 +59,16 @@ a {
   display: none;
   color: rgb(5, 5, 5);
 }
+
+/* --------------------------------------- */
+/* footer */
+footer {
+  background-color: #eaa001;
+  color: whitesmoke;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .links {
   display: flex;
   flex-flow: wrap;
@@ -120,18 +76,37 @@ a {
   gap: 2rem;
 }
 
-/* skifter farve på links, når musen hover over */
-/* a:hover {
-  color: ;
-} */
+@media (max-width: 600px) {
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
 
-/* Opsætninger af billeder af grid */
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+}
 
 /* --------------------------------------- */
-@media (min-width: 900px) {
-  /* --------------------------------------- */
-  /* menu */
-
+@media (min-width: 700px) {
   #first_section {
     margin: 1rem;
   }
@@ -139,8 +114,8 @@ a {
   #first_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2.5rem;
-    margin: 2.5rem;
+    gap: 2rem;
+    margin: 1rem;
   }
   #first_section .col {
     display: flex;
@@ -149,25 +124,25 @@ a {
   }
 
   #second_section {
-    margin: 2.5rem;
+    margin: 1rem;
   }
 
   #second_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5rem;
+    gap: 2rem;
     margin: 5rem;
     margin-bottom: 5rem;
   }
 
   #third_section {
-    margin: 2.5rem;
+    margin: 1rem;
   }
 
   #third_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5rem;
+    gap: 2rem;
     margin: 5rem;
     margin-bottom: 5rem;
   }
@@ -175,7 +150,7 @@ a {
   #fourth_section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2.5rem;
+    gap: 2rem;
     margin-bottom: 2.5rem;
   }
 
@@ -207,42 +182,88 @@ a {
 }
 
 /* --------------------------------------- */
+@media (min-width: 1100px) {
+  #first_section {
+    margin: 1rem;
+  }
 
+  #first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 1rem;
+  }
+  #first_section .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #second_section {
+    margin: 1rem;
+  }
+
+  #second_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  #third_section {
+    margin: 1rem;
+  }
+
+  #third_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  #fourth_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .element6 {
+    grid-column: 1/2;
+  }
+
+  #sixth_section .section_wrapper {
+    margin: 2rem;
+  }
+
+  #sixth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 1rem;
+  }
+  .element1 {
+    grid-column: 1/2;
+  }
+  .element2 {
+    grid-column: 2/3;
+  }
+  .element3 {
+    grid-column: 3/4;
+  }
+  .element4 {
+    grid-column: 4/5;
+  }
+}
+
+/* --------------------------------------- */
+/* google maps */
 .element5 {
   cursor: url("https://maps.gstatic.com/mapfiles/openhand_8_8.cur"), default;
 }
-
+/* --------------------------------------- */
 /* favicon */
-
 .favicon {
   max-width: 100px;
-}
-
-@media (max-width: 600px) {
-  .toggle-btn {
-    background: transparent;
-    border: none;
-    display: block;
-    min-width: 44px;
-    min-height: 44px;
-    font-size: 1.1rem;
-    cursor: pointer;
-  }
-
-  nav {
-    display: none;
-  }
-
-  nav.shown {
-    border-top: 1px solid #000;
-    padding-top: 1rem;
-    display: flex;
-    flex: 1 1 100%;
-    flex-flow: column;
-  }
-
-  nav ul {
-    display: flex;
-    flex-flow: column;
-  }
 }
