@@ -50,11 +50,12 @@ a:hover {
 #section_video {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: 90%;
 }
 
 .video {
   grid-column: 1/2;
-  width: 90%;
+
 }
 
 h1 {
@@ -64,11 +65,11 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5;
+  font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 1.25;
+  font-size: 1.25rem;
   color: #333333;
 }
 
@@ -115,6 +116,20 @@ footer {
   list-style: none;
   gap: 2rem;
 }
+.video {
+    grid-column: 2/3;
+  }
+
+  video {
+    width: 100%;
+  }
+
+   #second_section .section_wrapper {
+    margin: 3rem;
+  }
+   #third_section .section_wrapper {
+    margin: 3rem;}
+}
 
 @media (max-width: 700px) {
   .toggle-btn {
@@ -158,21 +173,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .video {
-    grid-column: 2/3;
-  }
-
-  video {
-    width: 100%;
-  }
-
-   #second_section .section_wrapper {
-    margin: 3rem;
-  }
-   #third_section .section_wrapper {
-    margin: 3rem;}
-}
-
+  
 @media (min-width: 1080px) {
   #section_video {
     display: grid;
