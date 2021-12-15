@@ -42,7 +42,10 @@ a:hover {
 .links {
   display: flex;
   flex-flow: wrap;
+  list-style: none;
+  gap: 2rem;
 }
+
 /* burgermenu */
 .toggle-btn {
   display: none;
@@ -51,19 +54,40 @@ a:hover {
 
 /* MOBILE FIRST (iPhone 12 pro) 375 */
 
-video {
-  width: 40%;
+#section_video {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.video {
+grid-column: 1/2;
+width: 90%;
 }
 
 h1 {
   margin: 2rem;
+  font-size: 2.5rem;
+    color: #333333;
+}
+
+h2 {
+  font-size: 1.5;
+}
+
+h3{
+  font-size: 1.25;
+    color: #333333;
+}
+
+p{
+  font-size: 1rem;
+  color: #333333;
 }
 
 #second_section {
-  background-color: #0156b9;
+  background-color: #eaa001;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  color: #edeeef;
 }
 
 #second_section .section_wrapper {
@@ -92,7 +116,24 @@ footer {
   grid-template-columns: 1fr;
 }
 
-@media (max-width: 600px) {
+
+
+@media (max-width: 700px) {
+  
+#section_video {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.video {
+grid-column: 2/3;
+}
+
+video{
+  width: 100%;
+}
+
+
   .toggle-btn {
     background: transparent;
     border: none;
@@ -130,6 +171,20 @@ footer {
 }
 
 @media (min-width: 900px) {
+
+
+#section_video {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.video {
+grid-column: 2/3;
+}
+
+video{
+  width: 100%;
+}
   h1 {
     margin: 3rem;
   }
