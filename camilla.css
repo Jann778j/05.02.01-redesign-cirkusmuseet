@@ -73,9 +73,12 @@ a {
   text-decoration: none;
 }
 
+/* --------------------------------------- */
+/* farve på hover */
 a:hover {
   color: #ef4044;
 }
+
 .banner ul {
   list-style: none;
   padding: 0;
