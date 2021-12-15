@@ -11,6 +11,7 @@ p {
 
 h2 {
   font-size: 1.5rem;
+  color: #ededed;
 }
 
 h3 {
@@ -22,16 +23,9 @@ img {
   max-width: 100%;
 }
 
-.splash {
-  height: auto;
-  aspect-ratio: 16/9;
-
-  background-size: cover;
-}
-
 footer {
   background-color: #0156b9;
-  color: aliceblue;
+  color: #ededed;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -44,7 +38,7 @@ footer {
 video {
   background-position: 50% 50%;
   filter: opacity(60%);
-  /* width: 100%; */
+  width: 100%;
 }
 
 .banner {
@@ -84,17 +78,14 @@ a:hover {
   padding: 1rem;
   font-size: 2rem;
   font-weight: lighter;
-  color: white;
+  color: #ededed;
   text-shadow: gray 5px 5px 5px;
 }
 
 /* burgermenu */
 .toggle-btn {
   display: none;
-  color: rgb(5, 5, 5);
-}
-
-#first_section {
+  color: #333333;
 }
 
 #second_section .section_wrapper {
@@ -111,6 +102,8 @@ a:hover {
 }
 #third_section .section_wrapper {
   margin: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 #fourth_section .section_wrapper {
@@ -157,17 +150,20 @@ a:hover {
   #first_section {
     position: relative;
   }
+  h1 {
+    font-size: 5rem;
+  }
 
   #first_section .boxed {
     position: absolute;
-    top: 35%;
-    left: 35%;
+    top: 27%;
+    left: 25%;
 
     font-family: "Quattrocento Sans", sans-serif;
     padding: 1rem;
     font-size: 2rem;
     font-weight: lighter;
-    color: white;
+    color: #ededed;
     text-shadow: gray 5px 5px 5px;
   }
 
@@ -213,17 +209,20 @@ a:hover {
   #first_section {
     position: relative;
   }
+  h1 {
+    font-size: 7rem;
+  }
 
   #first_section .boxed {
     position: absolute;
-    top: 35%;
-    left: 35%;
+    top: 30%;
+    left: 27%;
 
     font-family: "Quattrocento Sans", sans-serif;
     padding: 1rem;
     font-size: 2rem;
     font-weight: lighter;
-    color: white;
+    color: #ededed;
     text-shadow: gray 5px 5px 5px;
   }
 
