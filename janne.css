@@ -5,6 +5,17 @@ body {
 
 p {
   line-height: 1.2rem;
+  font-size: 1rem;
+  color: #333333;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: #333333;
 }
 
 img {
@@ -36,7 +47,6 @@ footer {
 } */
 
 video {
-  /* background-size: cover; */
   background-position: 50% 50%;
   filter: opacity(60%);
   width: 100%;
@@ -54,6 +64,9 @@ video {
 a {
   color: rgb(8, 8, 8);
   text-decoration: none;
+}
+a:hover {
+  color: #ef4044;
 }
 
 .banner ul {
@@ -95,15 +108,14 @@ a {
   padding-bottom: 2rem;
 }
 #second_section {
-  background-color: #ef4044;
+  background-color: #eaa001;
 }
 
 #third_section {
-  background-color: #eaa001;
+  background-color: #ef4044;
 }
 #third_section .section_wrapper {
   margin: 2rem;
-  background-color: #eaa001;
 }
 
 #fourth_section .section_wrapper {
