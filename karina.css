@@ -87,7 +87,7 @@ h1 {
 
 footer {
   background-color: #0156b9;
-  color: #edeeef;
+  color: aliceblue;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -123,6 +123,12 @@ footer {
   }
 }
 
+#fourth_section .section_wrapper {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  gap: 1rem;
+}
+
 @media (min-width: 900px) {
   h1 {
     margin: 3rem;
@@ -148,6 +154,10 @@ footer {
     grid-template-columns: 2fr 2fr 2fr 2fr;
     gap: 1rem;
   }
+
+
+{
+  
   .element1 {
     grid-column: 1/2;
   }
