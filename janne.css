@@ -202,7 +202,7 @@ a {
     grid-column: 4/5;
   }
 }
-@media (min-width: 1100px) {
+@media (min-width: 1080px) {
   #first_section {
     position: relative;
   }
@@ -250,6 +250,6 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10rem;
-    margin: 10rem;
+    margin: 7rem;
   }
 }

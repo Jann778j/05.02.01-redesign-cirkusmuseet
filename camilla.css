@@ -108,14 +108,14 @@ footer {
 /* --------------------------------------- */
 @media (min-width: 700px) {
   #first_section h2 {
-    margin: 5rem;
+    margin: 3rem;
   }
 
   #first_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
-    margin: 1rem;
+    margin: 3rem;
   }
   #first_section .col {
     display: flex;
@@ -124,14 +124,14 @@ footer {
   }
 
   #second_section h2 {
-    margin: 5rem;
+    margin: 3rem;
   }
 
   #second_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    margin: 5rem;
+    margin: 3rem;
     margin-bottom: 5rem;
   }
 
@@ -139,7 +139,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    margin: 5rem;
+    margin: 3rem;
     margin-bottom: 5rem;
   }
 
@@ -148,7 +148,7 @@ footer {
   }
 
   #fourth_section .section_wrapper {
-    margin: 2rem;
+    margin: 3rem;
   }
 
   #fourth_section .section_wrapper {
@@ -171,16 +171,16 @@ footer {
 }
 
 /* --------------------------------------- */
-@media (min-width: 1100px) {
+@media (min-width: 1080px) {
   #first_section h2 {
-    margin: 5rem;
+    margin: 7rem;
   }
 
   #first_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
-    margin: 5rem;
+    margin: 7rem;
     margin-bottom: 5rem;
   }
   #first_section .col {
@@ -190,14 +190,14 @@ footer {
   }
 
   #second_section h2 {
-    margin: 5rem;
+    margin: 7rem;
   }
 
   #second_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    margin: 5rem;
+    margin: 7rem;
     margin-bottom: 5rem;
   }
 
@@ -205,7 +205,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    margin: 5rem;
+    margin: 7rem;
     margin-bottom: 5rem;
   }
 
